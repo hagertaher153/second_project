@@ -8,8 +8,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: 'Testing Githup Action'
-        run: pwd   
-
-      - name: 'Testing Printing'
-        run: echo Hager
+      - name: 'Printing folder contents'
+        run: ls   
